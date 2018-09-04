@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1E1412;
+    position: relative;
+    padding-bottom: 27px;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #E5B85D;
+    font-size: 100px;
+    font-family: Tangerine, sans-serif;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+#logo {
+    width: 20%;
+    height: 20%;
+    margin: auto;
+}
+
+#logo > img {
+    width: 100%;
+    height: 100%;
+}
+
+img {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.8));
+}
+
+#yt {
+    display: inline-block;
+    height: 320px;
+    margin: 2% auto;
+    background-color: #A26E44;
+}
+
+#team {
+    color: #E5B85D;
+    font-family: Tangerine, sans-serif;
+    font-size: 40px;
+}
+
+#footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    height: 17px;
+    width: 100%;
+}
